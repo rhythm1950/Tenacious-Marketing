@@ -1,309 +1,365 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML & CSS - Auricle Website</title>
-    <!-- FONTAWESOME -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="navbar container">
-        <div class="navbar-top">
-          <img src="images/logo.png" alt="Logo Header" class="logo" />
-          <div class="menu-toggle">
-            <i class="fas fa-bars"></i>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Tenacious Marketing</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar container">
+      <div class="navbar-top">
+        <h1>Tenacious</h1>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+
+      <ul class="nav-list">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Our Services</a></li>
+        <li><a href="gallery.html">Our Gallery</a></li>
+        <li><a href="pricing.html">Pricing Plans</a></li>
+        <li><a href="team.html">Our Team</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+
+      <div class="navbar-button">
+        <div class="btn"><a href="contact.html">Get Support</a></div>
+      </div>
+
+    </nav>
+  </header>
+
+  <div class="sidebar">
+    <ul class="sidebar-nav-list">
+      <li><a href="">Home</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Service</a></li>
+      <li><a href="">Gallery</a></li>
+      <li><a href="">Pricing</a></li>
+      <li><a href="">Team</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <section class="page-banner">
+      <div class="container">
+        <h2>Services</h2>
+      </div>
+    </section>
+
+    <!-- Feautures section -->
+    <section class="features">
+      <div class="container">
+        <h1 class="section-title center">Our Services</h1>
+        <div class="features-grid">
+          <div class="features-list">
+
+            <div class="feature-item">
+              <div class="feature-item-icon">
+                <i class="fab fa-wordpress"></i>
+              </div>
+
+              <div class="features-item-description">
+                <h4>WordPress Installation</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cumque, eum.
+                </p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-item-icon">
+                <i class="fab fa-windows"></i>
+              </div>
+
+              <div class="features-item-description">
+                <h4>Browser Compatible</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cumque, eum.
+                </p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-item-icon">
+                <i class="fas fa-tag"></i>
+              </div>
+
+              <div class="features-item-description">
+                <h4>eCommerce Ready</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cumque, eum.
+                </p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-item-icon">
+                <i class="fas fa-file"></i>
+              </div>
+
+              <div class="features-item-description">
+                <h4>Easy To Customize</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cumque, eum.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="features-list">
+            <div class="feature-item">
+              <div class="feature-item-icon">
+                <i class="fas fa-swatchbook"></i>
+              </div>
+
+              <div class="features-item-description">
+                <h4>Limitless Colors</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cumque, eum.
+                </p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-item-icon">
+                <i class="fas fa-cloud-upload-alt"></i>
+              </div>
+
+              <div class="features-item-description">
+                <h4>Lifetime Update</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cumque, eum.
+                </p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-item-icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+
+              <div class="features-item-description">
+                <h4>SEO Friendly</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cumque, eum.
+                </p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-item-icon">
+                <i class="fas fa-code"></i>
+              </div>
+
+              <div class="features-item-description">
+                <h4>Simple Clean Code</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cumque, eum.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-image" data-aos="fade-left" data-aos-duration="2000" data-aos-once>
+            <img src="images/pc-banner2.png" alt="Phone Image" />
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Steps section -->
+    <section class="steps steps-bg">
+      <div class="container">
+        <h1 class="section-title center">
+          Fun Facts
+        </h1>
+
+        <div class="step-list">
+          <div class="step-item">
+            <i class="fas fa-gem"></i>
+            <h2>3476</h2>
+            <p>Go App Store</p>
+          </div>
+
+          <div class="step-item">
+            <i class="fas fa-user"></i>
+            <h2>3476</h2>
+            <p>Create an Account</p>
+          </div>
+
+          <div class="step-item">
+            <i class="fas fa-download"></i>
+            <h2>3476</h2>
+            <p>Download & Install</p>
+          </div>
+
+          <div class="step-item">
+            <i class="fas fa-thumbs-up"></i>
+            <h2>3476</h2>
+            <p>Enjoy & Rate Us!</p>
           </div>
         </div>
-        <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html" class="active">Service</a></li>
-          <li><a href="screenshoots.html">Screenshoots</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="navbar-button">
-          <div class="btn">Get Support</div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="body-font footer">
+    <div class="container px-5 py-10 mx-auto">
+      <div class="flex flex-wrap md:text-left text-center order-first">
+
+        <div class="lg:w-1/3 md:w-1/2 px-4 mb-8">
+          <h2 class="title-font font-medium -900 tracking-widest text-lg mb-3 text-white">Tenacious</h2>
+
+          <p class="-500 text-sm mt-2 md:text-justify text-center text-white mr-12">Lorem, ipsum dolor sit
+            amet consectetur adipisicing elit. Commodi nulla, perspiciatis beatae nemo, nostrum nisi
+            praesentium asperiores laudantium soluta architecto hic. </p>
         </div>
-      </nav>
-    </header>
-    <div class="sidebar">
-      <ul class="sidebar-nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Service</a></li>
-        <li><a href="screenshoots.html">Screenshoots</a></li>
-        <li><a href="pricing.html">Pricing</a></li>
-        <li><a href="team.html">Team</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+
+        <div class="lg:w-1/5 md:w-1/2 px-4">
+          <h2 class="title-font font-medium -900 tracking-widest text-sm mb-3 text-white">Quick Links</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-white">Home</a>
+            </li>
+            <li>
+              <a class="text-white">About Us</a>
+            </li>
+            <li>
+              <a class="text-white">Our Services</a>
+            </li>
+            <li>
+              <a class="text-white">Our Gallery</a>
+            </li>
+          </nav>
+        </div>
+
+        <div class="lg:w-1/5 md:w-1/2 px-4">
+          <h2 class="title-font font-medium -900 tracking-widest text-sm mb-3 text-white">Quick Links</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-white">Pricing Plans</a>
+            </li>
+            <li>
+              <a class="text-white">Our Team</a>
+            </li>
+            <li>
+              <a class="text-white">Contact Us</a>
+            </li>
+            <li>
+              <a class="text-white">Get Support</a>
+            </li>
+          </nav>
+        </div>
+
+        <div class="lg:w-1/4 md:w-1/2 px-4">
+          <h2 class="title-font font-medium -900 tracking-widest text-sm mb-3 text-white">SUBSCRIBE</h2>
+          <div
+            class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
+            <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+              <input type="text" id="footer-field" name="footer-field"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none -700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+
+            <button
+              class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none  rounded">Submit</button>
+          </div>
+
+          <p class="-500 text-sm mt-2 md:text-left text-center text-white">Lorem ipsum dolor sit amet
+            consectetur adipisicing.
+          </p>
+        </div>
+
+      </div>
     </div>
 
-    <main>
-      <section class="page-banner">
-        <div class="container">
-          <h2>Services</h2>
-        </div>
-      </section>
+    <div class="copyright">
+      <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center -900">
+          <span class="ml-3 text-xl text-white">Tenacious Marketing</span>
+        </a>
 
-      <section class="features">
-        <div class="container">
-          <h1 class="section-title center">Auricle <span>Services</span></h1>
-          <div class="features-grid">
-            <div class="features-list">
-              <div class="feature-item">
-                <div class="feature-item-icon">
-                  <i class="fab fa-wordpress"></i>
-                </div>
-                <div class="features-item-description">
-                  <h4>WordPress Installation</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cumque, eum.
-                  </p>
-                </div>
-              </div>
-              <div class="feature-item">
-                <div class="feature-item-icon">
-                  <i class="fab fa-windows"></i>
-                </div>
-                <div class="features-item-description">
-                  <h4>Browser Compatible</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cumque, eum.
-                  </p>
-                </div>
-              </div>
+        <p class="text-sm -500 sm:ml-6 sm:mt-0 mt-4 text-white">Tenacious © 2021 —
+          <a href="https://shahriarrhythm.com" rel="noopener noreferrer" class="-600 ml-1 text-white"
+            target="_blank">All Rights Reserved</a>
+        </p>
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start text-white">
+          <a class="-500">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+              viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+            </svg>
+          </a>
 
-              <div class="feature-item">
-                <div class="feature-item-icon">
-                  <i class="fas fa-tag"></i>
-                </div>
-                <div class="features-item-description">
-                  <h4>eCommerce Ready</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cumque, eum.
-                  </p>
-                </div>
-              </div>
+          <a class="ml-3 -500">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+              viewBox="0 0 24 24">
+              <path
+                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+              </path>
+            </svg>
+          </a>
 
-              <div class="feature-item">
-                <div class="feature-item-icon">
-                  <i class="fas fa-file"></i>
-                </div>
-                <div class="features-item-description">
-                  <h4>Easy To Customize</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cumque, eum.
-                  </p>
-                </div>
-              </div>
-            </div>
+          <a class="ml-3 -500">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-5 h-5" viewBox="0 0 24 24">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+            </svg>
+          </a>
 
-            <div class="features-list">
-              <div class="feature-item">
-                <div class="feature-item-icon">
-                  <i class="fas fa-swatchbook"></i>
-                </div>
-                <div class="features-item-description">
-                  <h4>Limitless Colors</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cumque, eum.
-                  </p>
-                </div>
-              </div>
+          <a class="ml-3 -500">
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+              <path stroke="none"
+                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+              </path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
 
-              <div class="feature-item">
-                <div class="feature-item-icon">
-                  <i class="fas fa-cloud-upload-alt"></i>
-                </div>
-                <div class="features-item-description">
-                  <h4>Lifetime Update</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cumque, eum.
-                  </p>
-                </div>
-              </div>
-
-              <div class="feature-item">
-                <div class="feature-item-icon">
-                  <i class="fas fa-chart-line"></i>
-                </div>
-                <div class="features-item-description">
-                  <h4>SEO Friendly</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cumque, eum.
-                  </p>
-                </div>
-              </div>
-
-              <div class="feature-item">
-                <div class="feature-item-icon">
-                  <i class="fas fa-code"></i>
-                </div>
-                <div class="features-item-description">
-                  <h4>Simple Clean Code</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cumque, eum.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="feature-image">
-              <img
-                src="images/application_screen.png"
-                alt="Phone Image"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="steps bg-gradient">
-        <div class="container">
-          <h1 class="section-title center">
-            Easy Steps
-          </h1>
-          <div class="step-list">
-            <div class="step-item">
-              <i class="fas fa-gem"></i>
-              <p>Go App Store</p>
-            </div>
-            <div class="step-item">
-              <i class="fas fa-user"></i>
-              <p>Create an Account</p>
-            </div>
-            <div class="step-item">
-              <i class="fas fa-download"></i>
-              <p>Download & Install</p>
-            </div>
-            <div class="step-item">
-              <i class="fas fa-thumbs-up"></i>
-              <p>Enjoy & Rate Us!</p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <div class="footer-top container">
-        <div class="footer-item brand">
-          <img
-            src="images/logo.png"
-            class="footer-logo"
-            alt="footer logo"
-          />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nam
-            tenetur, voluptatem ad ullam facere harum veritatis! Quo corporis
-            corrupti deleniti omnis reiciendis.
-          </p>
-          <br />
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut itaque
-            iure blanditiis, provident animi consequatur, sequi voluptas maxime
-            omnis, sit excepturi adipisci eum optio laboriosam.
-          </p>
-        </div>
-
-        <div class="footer-item">
-          <h3>Twitter Feed</h3>
-          <p>
-            <i class="fab fa-twitter"></i>
-            Creative_Talent - 26 minsTe invitamos a sequir la cta. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Cum iure possimus quae
-            vitae libero praesentium.
-          </p>
-          <br />
-          <p>
-            <i class="fab fa-twitter"></i>
-            Creative_Talent - 26 minsTe invitamos a sequir la cta. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Cum iure possimus quae
-            vitae libero praesentium.
-          </p>
-        </div>
-
-        <div class="footer-item social">
-          <h3>Social</h3>
-          <ul>
-            <li>
-              <i class="fab fa-facebook"></i>
-              256 Likes
-            </li>
-            <li>
-              <i class="fab fa-github"></i>
-              57+ projects
-            </li>
-            <li>
-              <i class="fab fa-instagram"></i>
-              1268 Followers
-            </li>
-            <li>
-              <i class="fab fa-pinterest"></i>
-              2412+ Pins
-            </li>
-          </ul>
-        </div>
-
-        <div class="footer-item blog">
-          <h3>Blog</h3>
-          <div class="posts">
-            <div class="post">
-              <img src="images/scr1.png" alt="post image" />
-              <div class="post-info">
-                <p class="post-date">July 22, 2020</p>
-                <p class="post-head">Round and round like carousel</p>
-              </div>
-            </div>
-
-            <div class="post">
-              <img src="images/scr2.png" alt="post image" />
-              <div class="post-info">
-                <p class="post-date">July 21, 2020</p>
-                <p class="post-head">Round and round like carousel</p>
-              </div>
-            </div>
-
-            <div class="post">
-              <img src="images/scr3.png" alt="post image" />
-              <div class="post-info">
-                <p class="post-date">July 20, 2020</p>
-                <p class="post-head">Round and round like carousel</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        </span>
       </div>
-      <div class="footer-bottom">
-        <p>Created By: Practical Dev 2020</p>
-      </div>
-    </footer>
+    </div>
+  </footer>
 
-    <script>
-      const menuToggleButton = document.querySelector('.menu-toggle');
-      const sidebar = document.querySelector('.sidebar');
-  
-      menuToggleButton.addEventListener('click', () => {
-        sidebar.classList.toggle('open')
-      })
-    </script>
-  </body>
+  <!-- Tailwind cdn -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    const menuToggleButton = document.querySelector('.menu-toggle');
+    const sidebar = document.querySelector('.sidebar');
+
+    menuToggleButton.addEventListener('click', () => {
+      sidebar.classList.toggle('open')
+    })
+  </script>
+</body>
+
 </html>

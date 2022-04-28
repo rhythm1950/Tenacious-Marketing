@@ -54,8 +54,7 @@ img {
 }
 
 .bg-gradient {
-    min-height: 420px;
-    padding: 100px 0;
+    padding: 60px 0 !important;
     background: url(./images/bg_gradient.png) no-repeat;
     background-size: cover;
     background-position: center;
@@ -258,14 +257,6 @@ header .navbar .nav-list a {
     padding: 5px 15px;
 }
 
-header .navbar .nav-list a:hover {
-    color: #db4703;
-}
-
-header .navbar .nav-list .active {
-    color: #db4703;
-}
-
 header .navbar .navbar-button {
     margin-top: 10px;
 }
@@ -278,6 +269,10 @@ header .navbar .navbar-button {
 
 header .navbar .navbar-button .btn {
     display: block;
+}
+
+header .navbar .navbar-button .btn a {
+    color: white;
 }
 
 .sidebar {
@@ -342,7 +337,7 @@ main {
 
 /* Hero section */
 .banner {
-    background: url("images/slide1.png") no-repeat;
+    background: url(images/slide1.png) no-repeat;
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -646,7 +641,6 @@ main {
 
 /* Steps section */
 .steps {
-    margin: 50px 0;
     color: #ffffff;
 }
 
@@ -843,13 +837,14 @@ main {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     width: 100%;
-    height: 150px;
+    height: 100%;
     position: relative;
-    padding-top: 20px;
-    background: url("images/slide1.png") no-repeat;
+    padding-top: 20%;
+    background: url(images/page-bg.png) no-repeat;
     background-size: cover;
     background-position: bottom center;
-    font-size: 25px;
+    font-size: 55px;
+    font-weight: bold;
     color: #ffffff;
 }
 
@@ -873,20 +868,22 @@ main {
     }
 }
 
-.screenshoots-grid {
+.gallery-grid {
     display: -ms-grid;
     display: grid;
     grid-gap: 0px;
-    /* -ms-grid-columns: (1fr)[2]; */
     grid-template-columns: repeat(2, 1fr);
 }
 
+.gallery-grid img {
+    height: 240px;
+}
+
 @media (min-width: 768px) {
-    .screenshoots-grid {
+    .gallery-grid {
         display: -ms-grid;
         display: grid;
         grid-gap: 0px;
-        /* -ms-grid-columns: (1fr)[4]; */
         grid-template-columns: repeat(4, 1fr);
     }
 }
@@ -896,7 +893,6 @@ main {
         display: -ms-grid;
         display: grid;
         grid-gap: 20px;
-        /* -ms-grid-columns: (1fr)[2]; */
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -906,7 +902,6 @@ main {
         display: -ms-grid;
         display: grid;
         grid-gap: 40px;
-        /* -ms-grid-columns: (1fr)[4]; */
         grid-template-columns: repeat(4, 1fr);
     }
 }
@@ -926,6 +921,10 @@ main {
     color: #db4703;
 }
 
+.team .container .team-card img {
+    height: 160px;
+}
+
 /* Footer */
 .footer {
     background-color: #db4703;
@@ -933,4 +932,12 @@ main {
 
 .copyright {
     background-color: #b63b02;
+}
+
+/* About page */
+.steps-bg {
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 0px !important;
 }

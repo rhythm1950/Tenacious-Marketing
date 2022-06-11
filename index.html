@@ -584,16 +584,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <script>
-        // Initialize and add the map
         function initMap() {
-            // The location of New York
+
             var newYork = { lat: 40.73061, lng: -73.935242 };
-            // The map, centered at newYork
             var map = new google.maps.Map(document.getElementById("map"), {
                 zoom: 10,
                 center: newYork,
             });
-            // The marker, positioned at newYork
             var marker = new google.maps.Marker({ position: newYork, map: map });
         }
 
@@ -605,11 +602,6 @@
         })
     </script>
 
-    <!--Load the API from the specified URL
-    //       * The async attribute allows the browser to render the page while the API loads
-    //       * The key parameter will contain your own API key (which is not needed for this tutorial)
-    //       * The callback parameter executes the initMap() function
-    //       -->
     <script defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz6m0GwKQ0tMin7ryXrPlQO6DwFbH8zlI&callback=initMap"></script>
 </body>

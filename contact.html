@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="style.css">
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
 
   <title>Tenacious Marketing</title>
 </head>
@@ -207,25 +207,16 @@
   <script src="https://cdn.tailwindcss.com"></script>
 
   <script>
-    // Initialize and add the map
     function initMap() {
-      // The location of New York
       var newYork = { lat: 40.73061, lng: -73.935242 };
-      // The map, centered at newYork
       var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 10,
         center: newYork,
       });
-      // The marker, positioned at newYork
       var marker = new google.maps.Marker({ position: newYork, map: map });
     }
   </script>
 
-  <!--Load the API from the specified URL
-            * The async attribute allows the browser to render the page while the API loads
-            * The key parameter will contain your own API key (which is not needed for this tutorial)
-            * The callback parameter executes the initMap() function
-            -->
   <script defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz6m0GwKQ0tMin7ryXrPlQO6DwFbH8zlI&callback=initMap"></script>
 
